@@ -1,0 +1,33 @@
+.sidebar {
+    width: 200px; /* Set the width of the sidebar */
+    padding: 20px; /* Padding inside the sidebar */
+    padding-left: 30px; /* Add left padding */
+    border-right: 2px solid #ccc; /* Vertical line on the right */
+    display: flex;
+    flex-direction: column; /* Stack links vertically */
+}
+
+.sidebar a {
+    text-decoration: none; /* Remove underline from links */
+    color: #000; /* Link color */
+    padding: 10px 0; /* Padding around links */
+    display: flex; /* Flex to align items */
+    align-items: center; /* Center align vertically */
+}
+
+.sidebar a img {
+    margin-left: 10px; /* Space between text and image */
+    width: 12px; /* Set a width for the image */
+    height: 12px; /* Set a height for the image */
+}
+
+.sidebar a:hover {
+    text-decoration: underline; /* Underline on hover */
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .sidebar {
+        display: none; /* Hide sidebar on small screens */
+    }
+}
