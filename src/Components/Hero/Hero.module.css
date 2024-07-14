@@ -1,0 +1,58 @@
+.heroContainer {
+    display: flex; /* Use flexbox for horizontal layout */
+    padding: 20px; /* Add space around the container */
+    gap: 20px; /* Add space between the Sidebar and Hero content */
+}
+
+.heroContent {
+    flex-grow: 1; /* Allow the content to take remaining space */
+    background-color: #000000; /* Background color */
+    color: white; /* Text color */
+    padding: 20px; /* Add padding inside the content area */
+    margin-top: 20px; /* Add margin on top for spacing */
+    border-radius: 8px; /* Optional: add rounded corners */
+    background-image: url(../Assets/iphone.png);
+    background-repeat: no-repeat;
+    background-size: 50%; /* Adjust size of the background image */
+    background-position: right 10px bottom 10px; /* Position background image slightly down and to the right */
+}
+
+.title {
+    margin: 0; /* Remove default margin */
+    display: flex; /* Flex to align items */
+    align-items: center; /* Center align items vertically */
+    font-size: 1.5em; /* Increase font size */
+    font-weight: bold; /* Bold text */
+    gap: 30px;
+    margin-top: 30px;
+    padding-left: 50px;
+}
+
+.title img {
+    margin-right: 10px; /* Space between image and text */
+}
+
+h3 {
+    margin: 20px 0; /* Add margin to separate from title and create space below */
+    font-size: 2em; /* Adjust font size */
+    font-weight: bold; /* Bold text */
+    padding-left: 50px;
+}
+
+.shopNow {
+    text-decoration: underline; /* Underline text */
+    display: flex; /* Flex to align items */
+    align-items: center; /* Center align items vertically */
+    margin-top: 20px; /* Add margin to separate from other content */
+    font-size: 1.2em; /* Adjust font size */
+    padding-left: 50px;
+}
+
+.shopNow img {
+    margin-left: 10px; /* Space between text and image */
+}
+
+.shopNow:hover {
+    color: #f0f0f0; /* Change color on hover */
+    cursor: pointer; /* Change cursor to pointer */
+}

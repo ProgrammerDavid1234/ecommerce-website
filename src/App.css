@@ -36,3 +36,19 @@
     transform: rotate(360deg);
   }
 }
+.appContainer {
+  display: flex; /* Use flexbox for horizontal layout */
+  height: 100vh; /* Full height for the app */
+}
+
+.sidebar {
+  width: 200px; /* Set the width of the sidebar */
+  padding: 20px; /* Padding inside the sidebar */
+  border-right: 2px solid #ccc; /* Vertical line on the right */
+}
+
+.hero {
+  flex-grow: 1; /* Allow Hero to take remaining space */
+  padding: 20px; /* Add padding around the Hero */
+  background-color: #f0f0f0; /* Optional background color */
+}

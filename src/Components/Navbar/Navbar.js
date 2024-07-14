@@ -12,10 +12,10 @@ const Navbar = () => {
           <h3>Exclusive</h3>
         </div>
         <div className={styles.links}>
-          <a href=''>Home</a>
-          <a href=''>Contact</a>
-          <a href=''>About</a>
-          <a href=''>Join</a>
+          <a href='#'>Home</a>
+          <a href='#'>Contact</a>
+          <a href='#'>About</a>
+          <a href='#'>Join</a>
         </div>
         <div className={styles.rightSection}>
           <div className={styles.searchContainer}>
