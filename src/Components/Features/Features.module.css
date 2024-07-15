@@ -1,0 +1,45 @@
+.container {
+    display: flex;
+    align-items: center;
+    padding-top: 150px;
+  }
+  
+  .container img {
+    margin-right: 15px; /* Increase the space between image and text */
+  }
+  
+  .container p {
+    margin: 0; /* Remove default margin */
+  }
+  
+  .timerContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding-left: 20px;
+  }
+  
+  .timer {
+    height: 55px; /* Adjust the height of the timer image as needed */
+    padding-left: 30px;
+  }
+  
+  .arrows {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+  }
+  
+  .arrows img {
+    margin-left: 10px; /* Space between the arrows */
+    height: 30px;
+  }
+  
+  .categoryImage {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    padding: 10px;
+  }
+  

@@ -7,6 +7,11 @@ import Flashsale from './Components/Flashsales/Flashsale'
 import Product from './Components/Product1/Product'
 import Category from './Components/Categories/Category'
 import Product2 from './Components/Product2/Product'
+import Selling from './Components/Selling/Selling'
+import CategoryImage from './Components/CategoryImage/Category'
+import Product3 from './Components/Product3/Product'
+import Feature from './Components/Features/Feature'
+import Testimony from './Components/Testimony/Testimony'
 
 const App = () => {
   return (
@@ -18,6 +23,11 @@ const App = () => {
       <Product />
       <Category />
       <Product2 />
+      <Selling />
+      <CategoryImage />
+      <Product3 />
+      <Feature />
+      <Testimony />
     </div>
   )
 }

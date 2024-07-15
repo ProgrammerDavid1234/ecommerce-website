@@ -20,6 +20,7 @@ const Flashsale = () => {
           <img src={right} alt='right icon' />
         </div>
       </div>
+      <br />
     </div>
   );
 };
