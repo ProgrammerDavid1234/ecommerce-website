@@ -1,0 +1,27 @@
+.container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+  padding: 20px;
+}
+
+.product {
+  border: 1px solid #ccc; /* Reduced the border width */
+  border-radius: 5px; /* Reduced the border radius */
+  padding: 10px; /* Adjusted the padding */
+  text-align: center;
+}
+
+.product img {
+  max-width: 100%;
+  height: auto;
+  border-bottom: 1px solid #ccc; /* Reduced the border width */
+  margin-bottom: 5px; /* Adjusted the margin */
+}
+
+.camera {
+  background-color: red;
+}
+.camera p{
+  color: white;
+}

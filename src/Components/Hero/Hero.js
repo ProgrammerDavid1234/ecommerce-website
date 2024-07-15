@@ -14,12 +14,12 @@ const Hero = () => {
         </p>
         <br />
         <br />
-        <h3 style={{fontSize:'30px'}}>
+        <h3 style={{fontSize:'50px', fontWeight:'bolder'}}>
           Up to <br /> 10% off Voucher
         </h3>
         <br />
         <p className={styles.shopNow}>
-          Shop Now <img src={sidenew} alt="Arrow" />
+          Shop Now <img src={sidenew} style={{width:'20px'}} alt="Arrow" />
         </p>
       </div>
     </div>
