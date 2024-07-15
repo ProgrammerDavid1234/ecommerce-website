@@ -12,6 +12,7 @@ import CategoryImage from './Components/CategoryImage/Category'
 import Product3 from './Components/Product3/Product'
 import Feature from './Components/Features/Feature'
 import Testimony from './Components/Testimony/Testimony'
+import Footer from './Components/Footer/Footer'
 
 const App = () => {
   return (
@@ -28,6 +29,7 @@ const App = () => {
       <Product3 />
       <Feature />
       <Testimony />
+      <Footer />
     </div>
   )
 }
