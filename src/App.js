@@ -18,31 +18,30 @@ import Login from './Pages/Login/Login';
 import About from './Pages/About/About';
 import Contact from './Pages/Contact/Contact';
 import All from './Components/All';
+import Landing from './Pages/Landing/Landing';
 
 const App = () => {
   return (
     <Router>
-      <Top />
-      <Navbar />
       <Routes>
-        <Route path="/" element={<All />} />
-        <Route path="/hero" element={<Hero />} />
-        <Route path="/flashsale" element={<Flashsale />} />
-        <Route path="/product1" element={<Product />} />
-        <Route path="/category" element={<Category />} />
-        <Route path="/product2" element={<Product2 />} />
-        <Route path="/selling" element={<Selling />} />
-        <Route path="/categoryimage" element={<CategoryImage />} />
-        <Route path="/product3" element={<Product3 />} />
-        <Route path="/feature" element={<Feature />} />
-        <Route path="/testimony" element={<Testimony />} />
-        <Route path="/join" element={<Join />} />
-        <Route path="/login" element={<Login />} />
-        <Route path="/about" element={<About />} />
-        <Route path="/contact" element={<Contact />} />
+        <Route path="/" element={<><Top /><Navbar /><All /><Footer /></>} />
+        <Route path="/hero" element={<><Top /><Navbar /><Hero /><Footer /></>} />
+        <Route path="/flashsale" element={<><Top /><Navbar /><Flashsale /><Footer /></>} />
+        <Route path="/product1" element={<><Top /><Navbar /><Product /><Footer /></>} />
+        <Route path="/category" element={<><Top /><Navbar /><Category /><Footer /></>} />
+        <Route path="/product2" element={<><Top /><Navbar /><Product2 /><Footer /></>} />
+        <Route path="/selling" element={<><Top /><Navbar /><Selling /><Footer /></>} />
+        <Route path="/categoryimage" element={<><Top /><Navbar /><CategoryImage /><Footer /></>} />
+        <Route path="/product3" element={<><Top /><Navbar /><Product3 /><Footer /></>} />
+        <Route path="/feature" element={<><Top /><Navbar /><Feature /><Footer /></>} />
+        <Route path="/testimony" element={<><Top /><Navbar /><Testimony /><Footer /></>} />
+        <Route path="/join" element={<><Top /><Navbar /><Join /><Footer /></>} />
+        <Route path="/login" element={<><Top /><Navbar /><Login /><Footer /></>} />
+        <Route path="/about" element={<><Top /><Navbar /><About /><Footer /></>} />
+        <Route path="/contact" element={<><Top /><Navbar /><Contact /><Footer /></>} />
         <Route path="*" element={<div>404 Not Found</div>} />
+        <Route path="/landing" element={<Landing showFullLayout />} />
       </Routes>
-      <Footer />
     </Router>
   );
 }

@@ -1,0 +1,87 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #fff;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .title h3 {
+    margin: 0;
+  }
+  
+  .links a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #333;
+  }
+  
+  .rightSection {
+    display: flex;
+    align-items: center;
+  }
+  
+  .searchContainer {
+    display: flex;
+    align-items: center;
+    position: relative;
+  }
+  
+  .searchInput {
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .searchIcon {
+    position: absolute;
+    right: 10px;
+    cursor: pointer;
+  }
+  
+  .iconContainer {
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+  }
+  
+  .icon {
+    width: 24px;
+    height: 24px;
+    margin: 0 10px;
+    cursor: pointer;
+  }
+  
+  .userIconContainer {
+    position: relative;
+  }
+  
+  .dropdownMenu {
+    position: absolute;
+    top: 30px;
+    right: 0;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 200px;
+    z-index: 1000;
+  }
+  
+  .dropdownMenu a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: #333;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .dropdownMenu a:hover {
+    background-color: #f1f1f1;
+  }
+  
+  .dropdownMenu a:last-child {
+    border-bottom: none;
+  }
+  
