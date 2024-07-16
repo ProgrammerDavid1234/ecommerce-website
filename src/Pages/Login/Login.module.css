@@ -1,0 +1,91 @@
+.loginContainer {
+    display: flex;
+    align-items: center; /* Center align items vertically */
+    justify-content: center; /* Center align items horizontally */
+    padding: 5px;
+    height: 100vh; /* Full viewport height */
+  }
+  
+  .sideImage {
+    width: 100%; /* Responsive width */
+    max-width: 700px; /* Maximum width */
+    height: auto; /* Maintain aspect ratio */
+    object-fit: contain;
+    margin-right: 20px; /* Space between image and text */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  }
+  
+  .formContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Center items vertically */
+    align-items: flex-start; /* Align items to the left */
+    max-width: 500px; /* Maximum width */
+    width: 100%; /* Full width */
+    margin: 0 auto; /* Center the form horizontally */
+    padding: 20px; /* Add padding */
+    background-color: #ffffff; /* White background */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  }
+  
+  .headerText {
+    margin-bottom: 10px;
+    width: 100%; /* Full width */
+    font-size: 24px; /* Larger font size */
+    font-weight: bold; /* Bold text */
+    color: #333; /* Darker text color */
+    text-align: left; /* Align text to the left */
+  }
+  
+  .paragraphText {
+    margin-bottom: 20px;
+    width: 100%; /* Full width */
+    font-size: 16px; /* Larger font size */
+    color: #666; /* Subtle text color */
+  }
+  
+  .inputField {
+    width: 100%; /* Full width */
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 0; /* Remove all borders */
+    border-bottom: 2px solid #ccc; /* Thicker bottom border */
+    border-radius: 0; /* Remove border radius */
+    background-color: #f9f9f9; /* Subtle background color */
+    font-size: 16px; /* Larger font size */
+    transition: border-color 0.3s; /* Smooth transition */
+  }
+  
+  .inputField:focus {
+    border-bottom-color: #007bff; /* Blue bottom border on focus */
+    outline: none; /* Remove default outline */
+  }
+  
+  .googleButton {
+    background-color: white;
+    color: black;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s; /* Smooth transition */
+  }
+  
+  .googleButton:hover {
+    background-color: #f8f8f8; /* Slightly darker on hover */
+  }
+  
+  .formContainer a {
+    color: #007bff;
+    text-decoration: none;
+    transition: color 0.3s; /* Smooth transition */
+  }
+  
+  .formContainer a:hover {
+    text-decoration: underline;
+    color: #0056b3; /* Darker blue on hover */
+  }
+  
