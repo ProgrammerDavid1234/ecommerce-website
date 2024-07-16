@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import styles from './Navbar.module.css';
 import search from '../Assets/search.png';
 import love from '../Assets/love.png';
@@ -9,19 +10,19 @@ const Navbar = () => {
     <>
       <div className={styles.navbar}>
         <div className={styles.title}>
-          <h3>Exclusive</h3>
+          <h3><Link to='/' style={{textDecoration:'none', color:'black'}}>Exclusive</Link></h3>
         </div>
         <div className={styles.links}>
-          <a href='#'>Home</a>
-          <a href='#'>Contact</a>
-          <a href='#'>About</a>
-          <a href='#'>Join</a>
+          <Link to="/all">Home</Link>
+          <Link to="/contact">Contact</Link>
+          <Link to="/about">About</Link>
+          <Link to="/join">Join</Link>
         </div>
         <div className={styles.rightSection}>
           <div className={styles.searchContainer}>
             <input
-              type='text'
-              placeholder='What are you looking for?'
+              type="text"
+              placeholder="What are you looking for?"
               className={styles.searchInput}
             />
             <img src={search} alt="Search" className={styles.searchIcon} />

@@ -1,0 +1,67 @@
+.joinContainer {
+  display: flex;
+  align-items: center; /* Center align items vertically */
+  justify-content: center; /* Center align items horizontally */
+  padding: 5px;
+  height: 100vh; /* Adjust as needed */
+}
+
+.sideImage {
+  width: 700px; /* Adjust width as needed */
+  height: 700px; /* Adjust height as needed */
+  object-fit: contain;
+  margin-right: 20px; /* Space between image and text */
+}
+
+.formContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Center items vertically */
+  align-items: flex-start; /* Align items to the left */
+  max-width: 500px; /* Adjust max width as needed */
+  margin: 0 auto; /* Center the form horizontally */
+}
+
+.headerText {
+  margin-bottom: 10px;
+  text-align: left; /* Align text to the left */
+  width: 100%; /* Ensure the width is 100% */
+}
+
+.paragraphText {
+  margin-bottom: 20px;
+  text-align: left; /* Align text to the left */
+  width: 100%; /* Ensure the width is 100% */
+}
+
+.inputField {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 0; /* Remove all borders */
+  border-bottom: 1px solid #ccc; /* Add only the bottom border */
+  border-radius: 0; /* Remove border radius */
+}
+
+.googleButton {
+  background-color: white;
+  color: black;
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.googleButton:hover {
+  background-color: #f8f8f8;
+}
+
+.formContainer a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.formContainer a:hover {
+  text-decoration: underline;
+}
