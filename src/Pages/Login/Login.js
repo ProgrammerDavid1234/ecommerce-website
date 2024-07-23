@@ -13,7 +13,7 @@ const Login = () => {
         <input type="text" placeholder="Email or Phone Number" className={styles.inputField} />
         <input type="password" placeholder="Password" className={styles.inputField} />
         <br />
-        <button className="btn btn-primary" style={{ width: '100%' }}>Log In</button>
+        <button className="btn btn-danger" style={{ width: '100%' }}><a href='/landing' style={{color:'white', textDecoration:'none'}}>Login</a></button>
         <br />
         <button className={styles.googleButton} style={{ width: '100%' }}>
           <img src={Google} style={{ height: '30px', paddingRight: '20px' }} alt="Google" />

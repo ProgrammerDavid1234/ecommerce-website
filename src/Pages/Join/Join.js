@@ -13,7 +13,7 @@ const Join = () => {
         <input type="text" placeholder="Email or Phone Number" className={styles.inputField} />
         <input type="password" placeholder="Password" className={styles.inputField} />
         <br />
-        <button className="btn btn-danger" style={{ width: '100%' }}><a href='/landing'>Create Account</a></button>
+        <button className="btn btn-danger" style={{ width: '100%' }}><a href='/landing' style={{color:'white', textDecoration:'none'}}>Create Account</a></button>
         <br />
         <button className={styles.googleButton} style={{ width: '100%' }}> <img src={Google}  style={{height:'30px', paddingRight:'20px'}}/>Sign up with Google</button>
         <p>Already have an account? <a href="/login">Log in</a></p>

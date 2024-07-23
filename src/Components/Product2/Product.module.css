@@ -6,22 +6,26 @@
 }
 
 .product {
-  border: 1px solid #ccc; /* Reduced the border width */
-  border-radius: 5px; /* Reduced the border radius */
-  padding: 10px; /* Adjusted the padding */
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
   text-align: center;
+  transition: border 0.3s ease;
 }
 
 .product img {
   max-width: 100%;
   height: auto;
-  border-bottom: 1px solid #ccc; /* Reduced the border width */
-  margin-bottom: 5px; /* Adjusted the margin */
+  border-bottom: 1px solid #ccc;
+  margin-bottom: 5px;
+}
+
+.product:hover {
+  background-color: red;
 }
 
 .camera {
-  background-color: red;
-}
-.camera p{
-  color: white;
+  /* Ensure camera image follows the same size constraints as others */
+  max-width: 100%;
+  height: 20px;
 }

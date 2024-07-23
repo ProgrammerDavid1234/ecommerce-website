@@ -20,7 +20,7 @@ const Navbar = () => {
           <h3><Link to="/" style={{ textDecoration: 'none', color: 'black' }}>Exclusive</Link></h3>
         </div>
         <div className={styles.links}>
-          <Link to="/all">Home</Link>
+          <Link to="/landing">Home</Link>
           <Link to="/contact">Contact</Link>
           <Link to="/about">About</Link>
           <Link to="/join">Logout</Link>
@@ -35,7 +35,9 @@ const Navbar = () => {
             <img src={search} style={{height:'20px'}} alt="Search" className={styles.searchIcon} />
           </div>
           <div className={styles.iconContainer}>
-            <img src={love} alt="Love" className={styles.icon} />
+            <Link to="/wishlist">
+              <img src={love} alt="Love" className={styles.icon} />
+            </Link>
             <img src={cart1} alt="Cart" className={styles.icon} />
             <div className={styles.userIconContainer} onClick={toggleDropdown}>
               <img src={user} alt="User" className={styles.icon} />
