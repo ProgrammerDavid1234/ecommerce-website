@@ -23,7 +23,6 @@ const All = () => {
       <Product1 />
       <Selling />
       <Categoryimage />
-      <Product2 />
       <Feature />
       <Testimony />
     </div>

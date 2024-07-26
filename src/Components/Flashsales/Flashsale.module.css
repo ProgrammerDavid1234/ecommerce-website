@@ -35,3 +35,19 @@
   margin-left: 10px; /* Space between the arrows */
   height: 30px;
 }
+
+/* Media query for small screens */
+@media (max-width: 767px) {
+  .arrows {
+    display: none; /* Hide the arrows on small screens */
+  }
+  
+  .timerContainer {
+    padding-left: 0; /* Remove left padding for small screens */
+  }
+  
+  .timer {
+    height: 40px; /* Adjust the height of the timer image for small screens */
+    width: auto; /* Ensure width adjusts automatically */
+  }
+}
