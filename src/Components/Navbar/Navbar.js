@@ -16,7 +16,7 @@ const Navbar = () => {
           <Link to="/all">Home</Link>
           <Link to="/contact">Contact</Link>
           <Link to="/about">About</Link>
-          <Link to="/join">Join</Link>
+          <Link to="/register">Join</Link>
         </div>
         <div className={styles.rightSection}>
           <div className={styles.searchContainer}>

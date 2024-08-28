@@ -13,7 +13,7 @@ import Product3 from './Components/Product3/Product';
 import Feature from './Components/Features/Feature';
 import Testimony from './Components/Testimony/Testimony';
 import Footer from './Components/Footer/Footer';
-import Join from './Pages/Join/Join';
+import  Register from './Pages/Register/Register';
 import Login from './Pages/Login/Login';
 import About from './Pages/About/About';
 import Contact from './Pages/Contact/Contact';
@@ -36,13 +36,14 @@ const App = () => {
         <Route path="/product3" element={<><Top /><Navbar /><Product3 /><Footer /></>} />
         <Route path="/feature" element={<><Top /><Navbar /><Feature /><Footer /></>} />
         <Route path="/testimony" element={<><Top /><Navbar /><Testimony /><Footer /></>} />
-        <Route path="/join" element={<><Top /><Navbar /><Join /><Footer /></>} />
+        <Route path="/register" element={<><Top /><Navbar /><Register /><Footer /></>} />
         <Route path="/login" element={<><Top /><Navbar /><Login /><Footer /></>} />
         <Route path="/about" element={<><Top /><Navbar /><About /><Footer /></>} />
         <Route path="/contact" element={<><Top /><Navbar /><Contact /><Footer /></>} />
         <Route path="*" element={<div>404 Not Found</div>} />
         <Route path="/landing" element={<Landing showFullLayout />} />
         <Route path="/wishlist" element={<Wishlist  />} />
+        
 
       </Routes>
     </Router>

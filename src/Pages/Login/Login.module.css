@@ -139,3 +139,7 @@
     display: none; /* Hide the side image on small screens */
   }
 }
+.errorText {
+  color: red;
+  margin-top: 10px;
+}

@@ -1,0 +1,140 @@
+/* Container for the login page */
+.loginContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  height: 100vh;
+  background-color: #f0f2f5; /* Light background color */
+}
+
+/* Styling for the side image */
+.sideImage {
+  width: 100%; /* Responsive width */
+  max-width: 700px; /* Maximum width */
+  height: 500px; /* Maintain aspect ratio */
+  object-fit: contain;
+  margin-right: 20px; /* Space between image and text */
+  border-radius: 10px; /* Rounded corners */
+}
+
+/* Container for the form */
+.formContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 400px;
+  width: 100%;
+  padding: 30px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* Header text styling */
+.headerText {
+  margin-bottom: 10px;
+  font-size: 22px;
+  font-weight: 600;
+  color: #333;
+  text-align: center;
+}
+
+/* Paragraph text styling */
+.paragraphText {
+  margin-bottom: 20px;
+  font-size: 14px;
+  color: #666;
+  text-align: center;
+}
+
+/* Input field styling */
+.inputField {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+  font-size: 16px;
+  transition: border-color 0.3s;
+}
+
+.inputField:focus {
+  border-color: #007bff;
+  outline: none;
+}
+
+/* Login button styling */
+.loginButton {
+  width: 100%;
+  padding: 12px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s;
+  margin-bottom: 15px;
+}
+
+.loginButton:hover {
+  background-color: #0056b3;
+}
+
+/* Google button styling */
+.googleButton {
+  width: 100%;
+  padding: 12px;
+  background-color: #fff;
+  color: #333;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.googleButton:hover {
+  background-color: #f1f1f1;
+}
+
+/* Google icon styling */
+.googleIcon {
+  height: 24px;
+  margin-right: 10px;
+}
+
+/* Sign up text styling */
+.signUpText {
+  margin-top: 15px;
+  font-size: 14px;
+}
+
+.signUpText a {
+  color: #007bff;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.signUpText a:hover {
+  text-decoration: underline;
+  color: #0056b3;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .loginContainer {
+    flex-direction: column;
+    align-items: center; /* Center content when the image is hidden */
+  }
+
+  .sideImage {
+    display: none; /* Hide the side image on small screens */
+  }
+}
