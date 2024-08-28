@@ -20,6 +20,7 @@ import Contact from './Pages/Contact/Contact';
 import All from './Components/All';
 import Landing from './Pages/Landing/Landing';
 import Wishlist from './Pages/Wishlist/Wishlist';
+import Cart from './Pages/Cart/cart'
 
 const App = () => {
   return (
@@ -43,6 +44,8 @@ const App = () => {
         <Route path="*" element={<div>404 Not Found</div>} />
         <Route path="/landing" element={<Landing showFullLayout />} />
         <Route path="/wishlist" element={<Wishlist  />} />
+        <Route path="/cart" element={<><Top /><Navbar /><Cart /><Footer /></>} />
+
         
 
       </Routes>
