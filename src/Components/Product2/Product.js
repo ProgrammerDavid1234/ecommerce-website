@@ -5,7 +5,7 @@ import computer from '../Assets/computer.png';
 import smartwatch from '../Assets/SmartWatch.png';
 import camera from '../Assets/camera.png';
 import headphone from '../Assets/Headphone.png';
-import gaming from '../Assets/Gamepad.png';
+import gaming from '../Assets/gamepad.png';
 
 const Product = () => {
   const products = [
